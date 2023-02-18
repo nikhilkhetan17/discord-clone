@@ -1,0 +1,15 @@
+{
+  "name": "interview_-discord_-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./src/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
