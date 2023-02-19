@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="/src/css/output.css" />
   </head>
   <body class="font-nato overflow-x-hidden">
-    <!-------------------------- Header-------------------------->
+    <!-------------------------- Small-Screen Nav-------------------------->
     <div class="wrapper bg-[#404EED]">
       <nav
         class="flex justify-around items-center py-4 xs:justify-between xs:w-[90%] mx-auto lg:justify-between lg:hidden"
@@ -67,7 +67,7 @@
             </g>
           </svg>
         </div>
-        <div class="flex items-center space-x-4">
+        <div class="flex items-center space-x-6">
           <button
             class="text-black bg-white px-3 py-2 rounded-2xl text-sm font-normal lg:hidden hover:text-blue-700 transition ease-in-out hover:shadow-lg hover:shadow-gray-800"
           >
@@ -78,7 +78,7 @@
           ></i>
         </div>
       </nav>
-      <!---------------Big-screen nav---------------->
+      <!---------------Big-Screen Nav---------------->
       <nav
         class="hidden lg:flex items-center py-4 justify-between w-[90%] mx-auto"
       >
@@ -124,23 +124,21 @@
         <div
           class="hidden lg:flex justify-center w-[100%] gap-x-8 text-white font-semibold"
         >
-          <a href="#" class="hover:border-b-[1px] hover:border-b-white"
+          <a href="#" class="hover:underline hover:underline-offset-2"
             >Download</a
           >
-          <a href="#" class="hover:border-b-[1px] hover:border-b-white"
-            >Nitro</a
-          >
-          <a href="#" class="hover:border-b-[1px] hover:border-b-white"
+          <a href="#" class="hover:underline hover:underline-offset-2">Nitro</a>
+          <a href="#" class="hover:underline hover:underline-offset-2"
             >Discover</a
           >
-          <a href="#" class="hover:border-b-[1px] hover:border-b-white"
+          <a href="#" class="hover:underline hover:underline-offset-2"
             >Safety</a
           >
-          <a href="#" class="hover:border-b-[1px] hover:border-b-white"
+          <a href="#" class="hover:underline hover:underline-offset-2"
             >Support</a
           >
-          <a href="#" class="hover:border-b-[1px] hover:border-b-white">Blog</a>
-          <a href="#" class="hover:border-b-[1px] hover:border-b-white"
+          <a href="#" class="hover:underline hover:underline-offset-2">Blog</a>
+          <a href="#" class="hover:underline hover:underline-offset-2"
             >Careers</a
           >
         </div>
@@ -256,17 +254,17 @@
         </button>
       </div>
 
-      <div class="relative pb-[100px]">
+      <div class="relative pb-[180px]">
         <img
           src="/src/assets/big-screen-left.svg"
           alt=""
-          class="absolute bottom-0 left-[-200px] w-[450px]"
+          class="absolute bottom-0 left-[-200px] w-[450px] xl:w-[550px]"
         />
 
         <img
           src="/src/assets/big-screen-right.svg"
           alt=""
-          class="absolute bottom-0 right-[-200px] w-[450px]"
+          class="absolute bottom-0 right-[-200px] w-[450px] xl:w-[550px]"
         />
       </div>
     </div>
@@ -320,7 +318,7 @@
     </section>
 
     <!-------------------------------------Section-3---------------------------------->
-    <section class="pt-14 md:flex md:items-center xl:gap-x-16">
+    <section class="py-14 md:flex md:items-center xl:gap-x-16">
       <img
         src="/src/assets/section-3.svg"
         alt="image"
@@ -334,12 +332,102 @@
         >
           From few to a fandom
         </h2>
-        <p class="pt-6 pb-14 font-normal lg:max-w-[70%]">
+        <p class="pt-6 font-normal lg:max-w-[70%]">
           Get any community running with moderation tools and custom member
           access. Give members special powers, set up private channels, and
           more.
         </p>
       </div>
     </section>
+
+    <!---------------------------------Section-4------------------------------->
+
+    <section class="bg-[#F6F6F6] pb-10 lg:pb-[100px]">
+      <h2
+        class="pt-12 px-3 text-xl font-black leading-5 md:text-center md:text-3xl lg:text-5xl"
+      >
+        RELIABLE TECH FOR STAYING CLOSE
+      </h2>
+
+      <p
+        class="px-3 font-normal text-[15px] pt-6 md:text-center md:text-[16px] lg:w-[80%] lg:mx-auto"
+      >
+        Low-latency voice and video feels like you’re in the same room. Wave
+        hello over video, watch friends stream their games, or gather up and
+        have a drawing session with screen share.
+      </p>
+
+      <img src="/src/assets/section-4.svg" alt="" class="w-[90%] mx-auto" />
+
+      <h2 class="text-center text-2xl font-black leading-7 px-4 pt-14 pb-8">
+        Ready to start your journey?
+      </h2>
+
+      <div
+        class="text-white bg-[#5865F4] w-fit py-3 px-8 rounded-full flex items-center space-x-2 cursor-pointer hover:bg-[#7983F5] transition duration-200 ease-in-out mx-auto"
+      >
+        <i class="fa-solid fa-download"></i>
+        <button class="text-lg">Download for Windows</button>
+      </div>
+    </section>
+
+    <!-----------------------------Footer--------------------------------->
+    <footer class="bg-[#23272A]">
+      <div
+        class="flex justify-start flex-wrap gap-x-24 xl:gap-x-[120px] items-start pt-16 pl-6 w-[90%] mx-auto gap-y-6"
+      >
+        <div class="">
+          <p class="text-[#5865F2] text-[35px] font-black leading-8">
+            IMAGINE A <br />
+            PLACE
+          </p>
+          <div class="pt-6 space-x-4 text-2xl text-white cursor-pointer">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="leading-8">
+          <p class="text-[#5865F2]">Product</p>
+          <p class="text-white">Download</p>
+          <p class="text-white">Nitro</p>
+          <p class="text-white">Status</p>
+        </div>
+
+        <div class="leading-8">
+          <p class="text-[#5865F2]">Company</p>
+          <p class="text-white">About</p>
+          <p class="text-white">Jobs</p>
+          <p class="text-white">Branding</p>
+          <p class="text-white">Newsroom</p>
+        </div>
+
+        <div class="leading-8">
+          <p class="text-[#5865F2]">Resources</p>
+          <p class="text-white">College</p>
+          <p class="text-white">Support</p>
+          <p class="text-white">Safety</p>
+          <p class="text-white">Blog</p>
+          <p class="text-white">Feedback</p>
+          <p class="text-white">Developers</p>
+          <p class="text-white">StreamKit</p>
+          <p class="text-white">Creators</p>
+          <p class="text-white">Community</p>
+        </div>
+
+        <div class="leading-8">
+          <p class="text-[#5865F2]">Policies</p>
+          <p class="text-white">Terms</p>
+          <p class="text-white">Privacy</p>
+          <p class="text-white">Cookie Settings</p>
+          <p class="text-white">Guidelines</p>
+          <p class="text-white">Acknowledgements</p>
+          <p class="text-white">Licenses</p>
+          <p class="text-white">Moderation</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
