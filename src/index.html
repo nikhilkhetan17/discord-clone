@@ -23,7 +23,7 @@
     <!-- Style.css file -->
     <link rel="stylesheet" href="/src/css/output.css" />
   </head>
-  <body class="font-nato">
+  <body class="font-nato overflow-x-hidden">
     <!-------------------------- Header-------------------------->
     <div class="wrapper bg-[#404EED]">
       <nav
@@ -78,7 +78,7 @@
           ></i>
         </div>
       </nav>
-      <!-- -------------Big-screen nav-------------- -->
+      <!---------------Big-screen nav---------------->
       <nav
         class="hidden lg:flex items-center py-4 justify-between w-[90%] mx-auto"
       >
@@ -153,6 +153,122 @@
           </button>
         </div>
       </nav>
+    </div>
+
+    <!----------------------Hero-section-1 || small screen size------------->
+
+    <div class="bg-[#404EED] pl-4 xs:pl-6 pt-6 md:hidden">
+      <h1 class="text-white text-3xl font-black pr-14 leading-8">
+        IMAGINE A PLACE...
+      </h1>
+
+      <p class="text-white pt-6 font-medium text-[14px] pr-3 xs:pr-6">
+        ...where you can belong to a school club, a gaming group, or a worldwide
+        art community. Where just you and a handful of friends can spend time
+        together. A place that makes it easy to talk every day and hang out more
+        often.
+      </p>
+
+      <div class="sm:flex sm:gap-x-6">
+        <div
+          class="text-black mt-6 bg-white w-fit py-3 px-6 rounded-full flex items-center space-x-2 cursor-pointer hover:text-[#5865F4] transition duration-200 ease-in-out"
+        >
+          <i class="fa-solid fa-download"></i>
+          <button class="text-lg">Download for Windows</button>
+        </div>
+        <button
+          class="mt-5 bg-[#23272A] text-[#fff] py-3 px-6 rounded-full text-lg hover:bg-[#36393F] transition duration-200 ease-in-out"
+        >
+          Open Discord in your browser
+        </button>
+      </div>
+
+      <div class="pt-12 flex justify-start">
+        <img
+          src="/src/assets/hero_img_1.svg"
+          alt=""
+          class="block relative ml-[-80px]"
+        />
+      </div>
+    </div>
+
+    <!----------------------------- Hero-section-1 || md-screen size -------------------------->
+
+    <div class="bg-[#404EED] hidden md:block pl-8 lg:hidden">
+      <h1 class="text-[60px] pt-16 text-white font-black leading-[55px]">
+        IMAGINE A <br />PLACE...
+      </h1>
+
+      <p class="text-white pt-8 font-medium text-[16px] w-[60%]">
+        ...where you can belong to a school club, a gaming group, or a worldwide
+        art community. Where just you and a handful of friends can spend time
+        together. A place that makes it easy to talk every day and hang out more
+        often.
+      </p>
+
+      <div
+        class="text-black mt-6 bg-white w-fit py-3 px-6 rounded-full flex items-center space-x-2 cursor-pointer hover:text-[#5865F4] transition duration-200 ease-in-out"
+      >
+        <i class="fa-solid fa-download"></i>
+        <button class="text-lg">Download for Windows</button>
+      </div>
+      <button
+        class="mt-5 bg-[#23272A] text-[#fff] py-3 px-6 rounded-full text-lg hover:bg-[#36393F] transition duration-200 ease-in-out"
+      >
+        Open Discord in your browser
+      </button>
+
+      <div class="relative pb-[150px]">
+        <img
+          src="/src/assets/hero1-big-sceen.svg"
+          alt=""
+          class="absolute bottom-0 right-[-100px] w-[500px]"
+        />
+      </div>
+    </div>
+
+    <!----------------------------- Hero-section-1 || lg-screen size -------------------------->
+
+    <div class="bg-[#404EED] hidden lg:block">
+      <h1 class="text-center text-white font-black text-[65px] pt-[80px]">
+        IMAGINE A PLACE...
+      </h1>
+      <p
+        class="text-white pt-6 font-medium text-[18px] mx-auto w-[60%] text-center"
+      >
+        ...where you can belong to a school club, a gaming group, or a worldwide
+        art community. Where just you and a handful of friends can spend time
+        together. A place that makes it easy to talk every day and hang out more
+        often.
+      </p>
+
+      <div class="flex sm:gap-x-6 justify-center mt-2">
+        <div
+          class="text-black mt-6 bg-white w-fit py-3 px-6 rounded-full flex items-center space-x-2 cursor-pointer hover:text-[#5865F4] transition duration-200 ease-in-out"
+        >
+          <i class="fa-solid fa-download"></i>
+          <button class="text-lg">Download for Windows</button>
+        </div>
+        <button
+          class="mt-5 bg-[#23272A] text-[#fff] py-3 px-6 rounded-full text-lg hover:bg-[#36393F] transition duration-200 ease-in-out"
+        >
+          Open Discord in your browser
+        </button>
+      </div>
+
+      <div class="relative pb-[100px]">
+        <img
+          src="/src/assets/big-screen-left.svg"
+          alt=""
+          class="absolute bottom-0 left-[-200px] w-[450px]"
+        />
+
+        <img
+          src="/src/assets/big-screen-right.svg"
+          alt=""
+          class="absolute bottom-0 right-[-200px] w-[450px]"
+        />
+      </div>
     </div>
   </body>
 </html>
