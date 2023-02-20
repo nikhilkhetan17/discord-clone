@@ -3,3 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-line:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.hover-line {
+  font-size: 15px;
+}
